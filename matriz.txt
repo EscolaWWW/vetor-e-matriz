@@ -1,0 +1,26 @@
+Algoritmo "media"
+
+Var
+
+nomes: vetor[1..3,1..3] de caracter
+contador : inteiro
+
+Inicio
+
+escreval("Crie uma agenda com 5 contatos")
+escreval("")
+para contador de 1 ate 5 faca
+    escreva("Nome: ")
+    leia(nomes[contador, 1])
+    escreva("E-mail: ")
+    leia(nomes[contador, 2])
+    escreva("Celular: ")
+    leia(nomes[contador, 3])
+fimpara
+escreval("=========================================")
+para loop1 de 1 ate 5 faca
+    escreval("Nomes: ",nomes[contador, 1]," / Email: ",nomes[contador, 2]," / Celular: ",nomes[contador, 3])
+    escreval("")
+fimpara
+
+Fimalgoritmo
